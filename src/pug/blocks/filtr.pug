@@ -1,0 +1,130 @@
+.container
+    .flex__basic
+        .row
+            .col-3
+                .row
+                    .filtr
+                        .filtr__first
+                            h3.first__text Фильтр товаров
+                            a(href="").first__a X Очистить фильтр
+                        .filtr__item
+                            .filtr__item--top
+                                .filtr__title
+                                    p.title__text Цены 
+                                .filtr__switch
+                                    img(src="assets/img/down.png", alt="")
+                            .filtr__item--bottom 
+                                .filtr__item--ti от
+                                    input(type="text").item--input
+                                    input(type="range" min="0" max="100" value="90" step="10").item--range 
+                                .filtr__item--ti до
+                                    input(type="text").item--input
+                                    input(type="range" min="0" max="100" value="90" step="10").item--range  
+                        .filtr__item
+                            .filtr__item--top
+                                .filtr__title
+                                    p.title__text Цвет 
+                                .filtr__switch
+                                    img(src="assets/img/down.png", alt="")
+                            .filtr__item--bottom
+                                input(type="checkbox")#ch1.check
+                                label(for="ch1").label
+                                    | Античное серебро 
+                                input(type="checkbox")#ch2.check
+                                label(for="ch2").label
+                                    | Бронзовый 
+                                input(type="checkbox")#ch3.check
+                                label(for="ch3").label
+                                    | Золотистый 
+                                input(type="checkbox")#ch4.check
+                                label(for="ch4").label
+                                    | Медный 
+                                input(type="checkbox")#ch5.check
+                                label(for="ch5").label
+                                    | Платина 
+                                input(type="checkbox")#ch6.check
+                                label(for="ch6").label
+                                    | Золотистый 
+                        .filtr__item
+                            .filtr__item--top
+                                .filtr__title
+                                    p.title__text Повод 
+                                .filtr__switch
+                                    img(src="assets/img/down.png", alt="")
+                            .filtr__item--bottom 
+                                input(type="checkbox")#ch7.check
+                                label(for="ch7").label
+                                    | Новый год
+                                input(type="checkbox")#ch8.check
+                                label(for="ch8").label
+                                    | Пасха 
+                                input(type="checkbox")#ch9.check
+                                label(for="ch9").label
+                                    | Рождение ребёнка 
+                                input(type="checkbox")#ch10.check
+                                label(for="ch10").label
+                                    | Без повода                 
+                        .filtr__item
+                            .filtr__item--top
+                                .filtr__title
+                                    p.title__text Материал 
+                                .filtr__switch
+                                    img(src="assets/img/down.png", alt="")
+                            .filtr__item--bottom  
+                                input(type="checkbox")#ch11.check
+                                label(for="ch11").label
+                                    | Бисер  
+                                input(type="checkbox")#ch12.check
+                                label(for="ch12").label
+                                    | Бумага  
+                                input(type="checkbox")#ch13.check
+                                label(for="ch13").label
+                                    | Бусины  
+                                input(type="checkbox")#ch14.check
+                                label(for="ch14").label
+                                    | Дерево  
+                                input(type="checkbox")#ch15.check
+                                label(for="ch15").label
+                                    | Керимика  
+                                input(type="checkbox")#ch16.check
+                                label(for="ch16").label
+                                    | Кожа  
+                                input(type="checkbox")#ch17.check
+                                label(for="ch17").label
+                                    | Кружево  
+                                input(type="checkbox")#ch18.check
+                                label(for="ch18").label
+                                    | Дерево
+            .col-9
+                .row
+                    +product('col-4 col-sd-6',12)
+                .row__flex
+                    ul.flex--ul
+                        li.flex--li 
+                            a(href="#").flex__link <
+                        li.flex--li 
+                            a(href="#").flex__link 1
+                        li.flex--li 
+                            a(href="#").flex__link 3
+                        li.flex--li 
+                            a(href="#").flex__link ...
+                        li.flex--li 
+                            a(href="#").flex__link 6 
+                        li.flex--li 
+                            a(href="#").flex__link 7 
+                        li.flex--li 
+                            a(href="#").flex__link 8 
+                        li.flex--li 
+                            a(href="#").flex__link ...
+                        li.flex--li 
+                            a(href="#").flex__link 11 
+                        li.flex--li 
+                            a(href="#").flex__link 12 
+                        li.flex--li 
+                            a(href="#").flex__link >     
+        
+        
+                                              
+                                 
+                                    
+                               

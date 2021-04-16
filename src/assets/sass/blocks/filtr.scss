@@ -1,0 +1,124 @@
+.filtr{
+    width: 365px;
+    height: 1070px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.filtr{
+    &__first{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 23px;
+    }
+    
+    &__item{
+        padding: 0px 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid lightgrey;
+        &--top{
+            display: flex;
+            justify-content: space-between;
+        }
+        &--ti {
+            flex-basis: 50%;
+            max-width: 50%;
+            
+        }
+        &--bottom{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 16px;
+            align-items: center;
+            flex-wrap: wrap;
+            .check{
+                display: none;
+                &:checked+label:before {
+                    background-color: #000;
+                }
+            }
+            .label {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                flex-basis: 100%;
+                margin-bottom: 10px;
+                font-size: 12px;
+                font-family: 'rw-r';
+                line-height: 24px;
+                &:before {
+                    content:'';
+                    display: inline-block;
+                    width: 22px;
+                    height: 18px;
+                    background-color: #f8f8f8;
+                    margin-right: 13px;
+                }
+            }
+        }
+
+    }
+}
+
+.title__text{
+    font-family: 'rw-m';
+    font-size: 18px;
+}
+
+.first{
+    &__text{
+        font-size: 20px;
+        font-family: 'rw-b';
+    }
+    &__a{
+        text-decoration: none;
+        color: #000000;
+        display: flex;
+        align-items: center;
+        font-size: 9px;
+        font-family: 'rw-l';
+    }
+}
+.item--input{
+    width: 127px;
+    height: 34px;
+    background-color: #F8F8F8;
+    border: 0;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: 'rw-r';
+    font-size: 12px;
+    line-height: 24;
+    color: #000;
+}
+.item--input:focus{
+    outline: 0;
+}
+
+.item--range{
+    margin-top: 12px;
+    width: 164px;
+}
+
+
+.flex{
+    &--ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+    &__link{
+        text-decoration: none;
+        padding: 0px 2.5px;
+        color: #000;
+        font-size: 24px;
+        font-family: 'rw-m';
+    }
+}
+.row__flex{
+    margin-bottom: 150px;
+    margin-top: 40px;
+}

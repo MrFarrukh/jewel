@@ -1,0 +1,23 @@
+.comment{
+    background-color: #fff;
+    margin-top: 29px;
+    &__box{
+        padding: 32px 16px 43px 41px;
+    }
+    &--p{
+        font-size: 18px;
+        font-family: 'rw-r';
+        line-height: 28px;
+    }
+    &--h2{
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        font-family: 'rw-b';
+        padding-bottom: 18px;
+    }
+}
+.other{
+    font-size: 36px;
+    font-family: 'rw-r';
+}

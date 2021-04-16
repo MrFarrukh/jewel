@@ -1,0 +1,33 @@
+- var lang = "en"
+- var title = "Home Page"
+- var fonts = "Raleway"
+- var splide = "true"
+
+mixin menus(ul_class,link_class, ...links)
+    ul(class=ul_class)
+        each link in links  
+            li(class=link_class)
+                a(href="http://localhost:3000/about.html").link= link
+
+mixin product(col,n)
+    - var count = n
+    - var i = 0
+    while i < count
+        .product__col(class=col,data-id=i++)
+            .product__item
+                .product__card
+                    .product__photo
+                        img(src="assets/img/jevelry.jpg", alt="").photo--pic
+                    .product__text
+                        .product__text__one
+                            p.product__one--p Шикарное, крупное колье из лазурита
+                            h3.product__one--h3 "Счастливое солнце"   
+                        .product__text__two
+                            .product__title
+                                p.title--text 120 000 
+                                    span сум 
+                            .product__title
+                                .title__type
+                                    button.title__button
+                                        img(src="assets/img/shoppingcart.png", alt="").title--img
+                                        p.button--p В корзину

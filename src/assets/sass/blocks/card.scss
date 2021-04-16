@@ -1,0 +1,93 @@
+@import 'vars';
+.product{
+    &__item{
+        width: 365px;
+    }
+    &__card{
+        box-shadow: 0 0 7px 0 #c7c1c1;
+        border-radius: 10px;
+    }
+    &__photo{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    &__text{
+        background-color: #fff;
+        width: 365px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    &__one--p{
+        font-size: 16px;
+        font-family: 'rw-l';
+        padding-top: 8px;
+        margin-left: 18px;
+    }
+    &__one--h3{
+        font-weight: normal;
+        font-size: 16px;
+        font-family: 'rw-m';
+        margin-left: 18px;
+        padding-bottom: 17px;
+        padding-top: 5px;
+    }
+    &__text__two{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.title__button{
+    background-color: #FCFCFC;
+    border: 0;
+    display: flex;
+    margin-right: 21px;
+    margin-bottom: 16px;
+    border-radius:10px;
+    cursor: pointer;
+    .title--img{
+        padding: 5px 10px;
+    }
+}
+.button--p{
+    padding-top: 10px;
+    padding-right: 9px;
+    font-family: 'rw-r';
+    font-size: 14px;
+}
+.title__button:focus{
+    outline: 0;
+}
+.title--text{
+    margin-left: 18px;
+    color: red;
+    margin-top: 9px;
+    font-family: 'rw-b';
+    span{
+        color: black;
+        font-size: 12px;
+        font-family: 'rw-l';
+    }
+}
+.photo--pic{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+}
+.row{
+    margin: 0px -10px;
+}
+
+.row{
+    @include df()
+}
+
+.product--span{
+    font-size: 36px;
+    color: #000000;
+    font-family: 'rw-r';
+}
+.product__items__text{
+    text-align: center;
+    margin-top: 82px;
+    margin-bottom: 39px;
+}

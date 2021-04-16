@@ -1,0 +1,32 @@
+.menu{
+    background-color: #fff;
+    height: 120px;
+    margin-bottom: 44px;
+    margin-top: -50px;
+    &__text{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__start{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+    }
+    &__end{
+        display: flex;
+        align-self: center;
+        padding-top: 30px;
+    }
+    &--p{
+        font-size: 16px;
+        font-family: 'rw-r';
+        line-height: 23px;
+        display: contents;
+        cursor: pointer;
+    }
+    &--span{
+        font-size: 24px;
+        font-family: 'rw-r';
+        line-height: 32px;
+    }
+}

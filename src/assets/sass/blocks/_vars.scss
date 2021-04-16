@@ -1,0 +1,17 @@
+$container: 1524px;
+$black: #1A1A1A;
+$orange: #F58D2D;
+$grey: #777777;
+$lgrey: #F8F8F8;
+
+@mixin df(){
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@mixin bg(){
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

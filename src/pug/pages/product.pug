@@ -1,0 +1,14 @@
+extends ../blocks/temp.pug\
+
+block content 
+    include ../blocks/menu.pug
+    include ../blocks/banblog.pug
+    include ../blocks/comment.pug
+    .product__items__text.other Похожие товары
+        span.product--span 
+    .product 
+        .container
+            .row
+                +product('col-3 col-md-4 col-sd-6',4)
+    include ../blocks/search.pug
+    

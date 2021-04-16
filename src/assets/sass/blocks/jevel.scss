@@ -1,0 +1,29 @@
+.jevel{
+    background-color: #fff;
+    height: 135px;
+    margin-bottom: 44px;
+    margin-top: -50px;
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    &--h2{
+        padding-top: 26px;
+        font-size: 36px;font-family: 'rw-r';
+        font-weight: normal;
+        padding-bottom: 10px;
+    }
+    &__start{
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &--p{
+        font-size: 16px;
+        font-family: 'rw-r';
+    }
+    &--span{
+        font-size: 16px;
+        font-family: 'rw-r';
+    }
+}

@@ -1,0 +1,46 @@
+.search{
+    height: 304px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+    margin-bottom: 44px;
+}
+.search{
+    &__receive{
+        font-size: 36px;
+        line-height: 24px;
+        font-family: 'rw-m';
+        color: #FFFFFF;
+    }
+    &__text{
+        padding-top: 93px;
+        text-align: center;
+        margin-bottom: 34px;
+    }
+    &__img{
+        text-align: center;
+    }
+    &__input{
+        width: 285px;
+        height: 44px;
+        border-radius: 10px;
+        padding-left: 20px;
+        font-size: 14px;
+        font-family: 'rw-m';
+    }
+    &--button{
+        height: 44px;
+        width: 125px;
+        background-color: #8EAD61;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-family: 'rw-m';
+    }
+    &--button:focus{
+        outline: 0;
+    }
+    &__input:focus{
+        outline: 0;
+    }
+}

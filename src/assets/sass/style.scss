@@ -1,0 +1,62 @@
+@import 'blocks/vars';
+
+@font-face{
+    font-family: 'rw-r';
+    src: url(../font/Raleway-Regular.ttf);
+}
+@font-face{
+    font-family: 'rw-b';
+    src: url(../font/Raleway-Bold.ttf);
+}
+@font-face{
+    font-family: 'rw-m';
+    src: url(../font/Raleway-Medium.ttf);
+}
+@font-face{
+    font-family: 'rw-l';
+    src: url(../font/Raleway-Light.ttf);
+}
+
+body, * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f9f8f8;
+}
+
+.container {
+    max-width: $container;
+    margin: auto;
+}
+
+$i:1;
+@while $i<=12{
+    .col-#{$i}{
+        flex-basis: percentage($i/12);
+        padding: 10px;
+        max-width: percentage($i/12);
+    }
+    $i: $i+1;
+}
+
+
+
+@import 'blocks/footer.scss';
+@import 'blocks/header.scss';
+@import 'splide.min.scss';
+@import 'blocks/slider.scss';
+@import 'blocks/banner.scss';
+@import 'blocks/card.scss';
+@import 'blocks/slider.scss';
+@import 'blocks/search.scss';
+@import 'blocks/magazine.scss';
+@import 'blocks/jevel.scss';
+@import 'blocks/filtr.scss';
+@import 'blocks/onas.scss';
+@import 'blocks/aboutme.scss';
+@import 'blocks/menu.scss';
+@import 'blocks/banblog.scss';
+@import 'blocks/comment.scss';
+@import 'media.scss';

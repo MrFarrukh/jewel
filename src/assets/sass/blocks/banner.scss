@@ -1,0 +1,38 @@
+@import 'vars';
+
+.banner__blocks{
+    margin-top: 105px;
+    @include df()
+}
+.banner__item{
+    position: relative;
+}
+.banner__type{
+    width: 493px;
+    height: 365px;
+    border-radius: 20px;
+    p{
+        font-family: 'rw-m';
+        font-size: 24px;
+        color: #ffffff;
+        position: absolute;
+        left: 24px;
+        bottom: 30px;
+    }
+}
+.banner__title{
+    height: 175px;
+    width: 493px;
+    margin-bottom: 13px;
+    border-radius: 20px;
+    position: relative;
+    p{
+        font-family: 'rw-m';
+        font-size: 24px;
+        color: #ffffff;
+        left: 22px;
+        bottom: 16px;
+        position: absolute;
+    }
+}
+

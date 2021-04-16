@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>test</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__main">
+          <div class="header__us">
+            <ul class="header__menu">
+              <li class="header__item"><a class="link" href="http://localhost:3000/about.html">Каталог</a></li>
+              <li class="header__item"><a class="link" href="http://localhost:3000/about.html">Онас</a></li>
+              <li class="header__item"><a class="link" href="http://localhost:3000/about.html">Доставка</a></li>
+              <li class="header__item"><a class="link" href="http://localhost:3000/about.html">Акции</a></li>
+              <li class="header__item"><a class="link" href="http://localhost:3000/about.html">Новости</a></li>
+            </ul>
+            <button class="button__menu"><span></span></button>
+          </div>
+          <div class="header__logo"><a href="http://localhost:3000/index.html"><img class="header__img" src="assets/img/mainlogo.png" alt=""/></a></div>
+          <div class="header__info">
+            <div class="header__top">
+              <div class="header__block--one">
+                <div class="header__pic"><img class="header__delivery" src="assets/img/support.png" alt=""/></div>
+                <div class="header__text">
+                  <h4 class="header--h4">Служба поддержки</h4><span class="header--span">+998 71 123 45 67</span>
+                </div>
+              </div>
+              <div class="header__block--two">
+                <div class="header__pic"><img class="header__delivery" src="assets/img/delivery.png" alt=""/></div>
+                <div class="header__text">
+                  <h3 class="header--h4">Доставка</h3><span class="header--span">В течение дня</span>
+                </div>
+              </div>
+              <div class="header__block--three">
+                <div class="header__pic"><img class="header__delivery" src="assets/img/cart.png" alt=""/></div>
+                <div class="header__text">
+                  <h4 class="header--h4">Корзина</h4><span class="header--span">1 200 000 сум</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="jevel">
+      <div class="container">
+        <div class="jevel__text">
+          <h2 class="jevel--h2">Украшение</h2>
+        </div>
+        <div class="jevel__flex">
+          <div class="jevel__start">
+            <p class="jevel--p">Главная</p>
+            <p class="jevel--p">/</p>
+            <p class="jevel--p">Каталог</p>
+            <p class="jevel--p">/</p>
+            <p class="jevel--p">Украшение</p>
+          </div>
+          <div class="jevel__end"><span class="jevel--span">Сортировать по </span></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="flex__basic">
+        <div class="row">
+          <div class="col-3">
+            <div class="row">
+              <div class="filtr">
+                <div class="filtr__first">
+                  <h3 class="first__text">Фильтр товаров</h3><a class="first__a" href="">X Очистить фильтр</a>
+                </div>
+                <div class="filtr__item">
+                  <div class="filtr__item--top">
+                    <div class="filtr__title">
+                      <p class="title__text">Цены </p>
+                    </div>
+                    <div class="filtr__switch"><img src="assets/img/down.png" alt=""/></div>
+                  </div>
+                  <div class="filtr__item--bottom"> 
+                    <div class="filtr__item--ti">от
+                      <input class="item--input" type="text"/>
+                      <input class="item--range" type="range" min="0" max="100" value="90" step="10"/>
+                    </div>
+                    <div class="filtr__item--ti">до
+                      <input class="item--input" type="text"/>
+                      <input class="item--range" type="range" min="0" max="100" value="90" step="10"/>
+                    </div>
+                  </div>
+                </div>
+                <div class="filtr__item">
+                  <div class="filtr__item--top">
+                    <div class="filtr__title">
+                      <p class="title__text">Цвет </p>
+                    </div>
+                    <div class="filtr__switch"><img src="assets/img/down.png" alt=""/></div>
+                  </div>
+                  <div class="filtr__item--bottom">
+                    <input class="check" type="checkbox" id="ch1"/>
+                    <label class="label" for="ch1">Античное серебро </label>
+                    <input class="check" type="checkbox" id="ch2"/>
+                    <label class="label" for="ch2">Бронзовый </label>
+                    <input class="check" type="checkbox" id="ch3"/>
+                    <label class="label" for="ch3">Золотистый </label>
+                    <input class="check" type="checkbox" id="ch4"/>
+                    <label class="label" for="ch4">Медный </label>
+                    <input class="check" type="checkbox" id="ch5"/>
+                    <label class="label" for="ch5">Платина </label>
+                    <input class="check" type="checkbox" id="ch6"/>
+                    <label class="label" for="ch6">Золотистый </label>
+                  </div>
+                </div>
+                <div class="filtr__item">
+                  <div class="filtr__item--top">
+                    <div class="filtr__title">
+                      <p class="title__text">Повод </p>
+                    </div>
+                    <div class="filtr__switch"><img src="assets/img/down.png" alt=""/></div>
+                  </div>
+                  <div class="filtr__item--bottom"> 
+                    <input class="check" type="checkbox" id="ch7"/>
+                    <label class="label" for="ch7">Новый год</label>
+                    <input class="check" type="checkbox" id="ch8"/>
+                    <label class="label" for="ch8">Пасха </label>
+                    <input class="check" type="checkbox" id="ch9"/>
+                    <label class="label" for="ch9">Рождение ребёнка </label>
+                    <input class="check" type="checkbox" id="ch10"/>
+                    <label class="label" for="ch10">Без повода                 </label>
+                  </div>
+                </div>
+                <div class="filtr__item">
+                  <div class="filtr__item--top">
+                    <div class="filtr__title">
+                      <p class="title__text">Материал </p>
+                    </div>
+                    <div class="filtr__switch"><img src="assets/img/down.png" alt=""/></div>
+                  </div>
+                  <div class="filtr__item--bottom"> 
+                    <input class="check" type="checkbox" id="ch11"/>
+                    <label class="label" for="ch11">Бисер  </label>
+                    <input class="check" type="checkbox" id="ch12"/>
+                    <label class="label" for="ch12">Бумага  </label>
+                    <input class="check" type="checkbox" id="ch13"/>
+                    <label class="label" for="ch13">Бусины  </label>
+                    <input class="check" type="checkbox" id="ch14"/>
+                    <label class="label" for="ch14">Дерево  </label>
+                    <input class="check" type="checkbox" id="ch15"/>
+                    <label class="label" for="ch15">Керимика  </label>
+                    <input class="check" type="checkbox" id="ch16"/>
+                    <label class="label" for="ch16">Кожа  </label>
+                    <input class="check" type="checkbox" id="ch17"/>
+                    <label class="label" for="ch17">Кружево  </label>
+                    <input class="check" type="checkbox" id="ch18"/>
+                    <label class="label" for="ch18">Дерево</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="row">
+              <div class="product__col col-4 col-sd-6" data-id="0">
+                <div class="product__item">
+                  <div class="product__card">
+                    <div class="product__photo"><img class="photo--pic" src="assets/img/jevelry.jpg" alt=""/></div>
+                    <div class="product__text">
+                      <div class="product__text__one">
+                        <p class="product__one--p">Шикарное, крупное колье из лазурита</p>
+                        <h3 class="product__one--h3">"Счастливое солнце"   </h3>
+                      </div>
+                      <div class="product__text__two">
+                        <div class="product__title">
+                          <p class="title--text">120 000 <span>сум </span></p>
+                        </div>
+                        <div class="product__title">
+                          <div class="title__type">
+                            <button class="title__button"><img class="title--img" src="assets/img/shoppingcart.png" alt=""/>
+                              <p class="button--p">В корзину</p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__col col-4 col-sd-6" data-id="1">
+                <div class="product__item">
+                  <div class="product__card">
+                    <div class="product__photo"><img class="photo--pic" src="assets/img/jevelry.jpg" alt=""/></div>
+                    <div class="product__text">
+                      <div class="product__text__one">
+                        <p class="product__one--p">Шикарное, крупное колье из лазурита</p>
+                        <h3 class="product__one--h3">"Счастливое солнце"   </h3>
+                      </div>
+                      <div class="product__text__two">
+                        <div class="product__title">
+                          <p class="title--text">120 000 <span>сум </span></p>
+                        </div>
+                        <div class="product__title">
+                          <div class="title__type">
+                            <button class="title__button"><img class="title--img" src="assets/img/shoppingcart.png" alt=""/>
+                              <p class="button--p">В корзину</p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__col col-4 col-sd-6" data-id="2">
+                <div class="product__item">
+                  <div class="product__card">
+                    <div class="product__photo"><img class="photo--pic" src="assets/img/jevelry.jpg" alt=""/></div>
+                    <div class="product__text">
+                      <div class="product__text__one">
+                        <p class="product__one--p">Шикарное, крупное колье из лазурита</p>
+                        <h3 class="product__one--h3">"Счастливое солнце"   </h3>
+                      </div>
+                      <div class="product__text__two">
+                        <div class="product__title">
+                          <p class="title--text">120 000 <span>сум </span></p>
+                        </div>
+                        <div class="product__title">
+                          <div class="title__type">
+                            <button class="title__button"><img class="title--img" src="assets/img/shoppingcart.png" alt=""/>
+                              <p class="button--p">В корзину</p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__col col-4 col-sd-6" data-id="3">
+                <div class="product__item">
+                  <div class="product__card">
+                    <div class="product__photo"><img class="photo--pic" src="assets/img/jevelry.jpg" alt=""/></div>
+                    <div class="product__text">
+                      <div class="product__text__one">
+                        <p class="product__one--p">Шикарное, крупное колье из лазурита</p>
+                        <h3 class="product__one--h3">"Счастливое солнце"   </h3>
+                      </div>
+                      <div class="product__text__two">
+                        <div class="product__title">
+                          <p class="title--text">120 000 <span>сум </span></p>
+                        </div>
+                        <div class="product__title">
+                          <div class="title__type">
+                            <button class="title__button"><img class="title--img" src="assets/img/shoppingcart.png" alt=""/>
+                              <p class="button--p">В корзину</p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__col col-4 col-sd-6" data-id="4">
+                <div class="product__item">
+                  <div class="product__card">
+                    <div class="product__photo"><img class="photo--pic" src="assets/img/jevelry.jpg" alt=""/></div>
+                    <div class="product__text">
+                      <div class="product__text__one">
+                        <p class="product__one--p">Шикарное, крупное колье из лазурита</p>
+                        <h3 class="product__one--h3">"Счастливое солнце"   </h3>
+                      </div>
+                      <div class="product__text__two">
+                        <div class="product__title">
+                          <p class="title--text">120 000 <span>сум </span></p>
+                        </div>
+                        <div class="product__title">
+                          <div class="title__type">
+                            <button class="title__button"><img class="title--img" src="assets/img/shoppingcart.png" alt=""/>
+                              <p class="button--p">В корзину</p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__col col-4 col-sd-6" data-id="5">
+                <div class="product__item">
+                  <div class="product__card">
+                    <div class="product__photo"><img class="photo--pic" src="assets/img/jevelry.jpg" alt=""/></div>
+                    <div class="product__text">
+                      <div class="product__text__one">
+                        <p class="product__one--p">Шикарное, крупное колье из лазурита</p>
+                        <h3 class="product__one--h3">"Счастливое солнце"   </h3>
+                      </div>
+                      <div class="product__text__two">
+                        <div class="product__title">
+                          <p class="title--text">120 000 <span>сум </span></p>
+                        </div>
+                        <div class="product__title">
+                          <div class="title__type">
+                            <button class="title__button"><img class="title--img" src="assets/img/shoppingcart.png" alt=""/>
+                              <p class="button--p">В корзину</p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__col col-4 col-sd-6" data-id="6">
+                <div class="product__item">
+                  <div class="product__card">
+                    <div class="product__photo"><img class="photo--pic" src="assets/img/jevelry.jpg" alt=""/></div>
+                    <div class="product__text">
+                      <div class="product__text__one">
+                        <p class="product__one--p">Шикарное, крупное колье из лазурита</p>
+                        <h3 class="product__one--h3">"Счастливое солнце"   </h3>
+                      </div>
+                      <div class="product__text__two">
+                        <div class="product__title">
+                          <p class="title--text">120 000 <span>сум </span></p>
+                        </div>
+                        <div class="product__title">
+                          <div class="title__type">
+                            <button class="title__button"><img class="title--img" src="assets/img/shoppingcart.png" alt=""/>
+                              <p class="button--p">В корзину</p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__col col-4 col-sd-6" data-id="7">
+                <div class="product__item">
+                  <div class="product__card">
+                    <div class="product__photo"><img class="photo--pic" src="assets/img/jevelry.jpg" alt=""/></div>
+                    <div class="product__text">
+                      <div class="product__text__one">
+                        <p class="product__one--p">Шикарное, крупное колье из лазурита</p>
+                        <h3 class="product__one--h3">"Счастливое солнце"   </h3>
+                      </div>
+                      <div class="product__text__two">
+                        <div class="product__title">
+                          <p class="title--text">120 000 <span>сум </span></p>
+                        </div>
+                        <div class="product__title">
+                          <div class="title__type">
+                            <button class="title__button"><img class="title--img" src="assets/img/shoppingcart.png" alt=""/>
+                              <p class="button--p">В корзину</p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__col col-4 col-sd-6" data-id="8">
+                <div class="product__item">
+                  <div class="product__card">
+                    <div class="product__photo"><img class="photo--pic" src="assets/img/jevelry.jpg" alt=""/></div>
+                    <div class="product__text">
+                      <div class="product__text__one">
+                        <p class="product__one--p">Шикарное, крупное колье из лазурита</p>
+                        <h3 class="product__one--h3">"Счастливое солнце"   </h3>
+                      </div>
+                      <div class="product__text__two">
+                        <div class="product__title">
+                          <p class="title--text">120 000 <span>сум </span></p>
+                        </div>
+                        <div class="product__title">
+                          <div class="title__type">
+                            <button class="title__button"><img class="title--img" src="assets/img/shoppingcart.png" alt=""/>
+                              <p class="button--p">В корзину</p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__col col-4 col-sd-6" data-id="9">
+                <div class="product__item">
+                  <div class="product__card">
+                    <div class="product__photo"><img class="photo--pic" src="assets/img/jevelry.jpg" alt=""/></div>
+                    <div class="product__text">
+                      <div class="product__text__one">
+                        <p class="product__one--p">Шикарное, крупное колье из лазурита</p>
+                        <h3 class="product__one--h3">"Счастливое солнце"   </h3>
+                      </div>
+                      <div class="product__text__two">
+                        <div class="product__title">
+                          <p class="title--text">120 000 <span>сум </span></p>
+                        </div>
+                        <div class="product__title">
+                          <div class="title__type">
+                            <button class="title__button"><img class="title--img" src="assets/img/shoppingcart.png" alt=""/>
+                              <p class="button--p">В корзину</p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__col col-4 col-sd-6" data-id="10">
+                <div class="product__item">
+                  <div class="product__card">
+                    <div class="product__photo"><img class="photo--pic" src="assets/img/jevelry.jpg" alt=""/></div>
+                    <div class="product__text">
+                      <div class="product__text__one">
+                        <p class="product__one--p">Шикарное, крупное колье из лазурита</p>
+                        <h3 class="product__one--h3">"Счастливое солнце"   </h3>
+                      </div>
+                      <div class="product__text__two">
+                        <div class="product__title">
+                          <p class="title--text">120 000 <span>сум </span></p>
+                        </div>
+                        <div class="product__title">
+                          <div class="title__type">
+                            <button class="title__button"><img class="title--img" src="assets/img/shoppingcart.png" alt=""/>
+                              <p class="button--p">В корзину</p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__col col-4 col-sd-6" data-id="11">
+                <div class="product__item">
+                  <div class="product__card">
+                    <div class="product__photo"><img class="photo--pic" src="assets/img/jevelry.jpg" alt=""/></div>
+                    <div class="product__text">
+                      <div class="product__text__one">
+                        <p class="product__one--p">Шикарное, крупное колье из лазурита</p>
+                        <h3 class="product__one--h3">"Счастливое солнце"   </h3>
+                      </div>
+                      <div class="product__text__two">
+                        <div class="product__title">
+                          <p class="title--text">120 000 <span>сум </span></p>
+                        </div>
+                        <div class="product__title">
+                          <div class="title__type">
+                            <button class="title__button"><img class="title--img" src="assets/img/shoppingcart.png" alt=""/>
+                              <p class="button--p">В корзину</p>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row__flex">
+              <ul class="flex--ul">
+                <li class="flex--li"> <a class="flex__link" href="#"><</a></li>
+                <li class="flex--li"> <a class="flex__link" href="#">1</a></li>
+                <li class="flex--li"> <a class="flex__link" href="#">3</a></li>
+                <li class="flex--li"> <a class="flex__link" href="#">...</a></li>
+                <li class="flex--li"> <a class="flex__link" href="#">6 </a></li>
+                <li class="flex--li"> <a class="flex__link" href="#">7 </a></li>
+                <li class="flex--li"> <a class="flex__link" href="#">8 </a></li>
+                <li class="flex--li"> <a class="flex__link" href="#">...</a></li>
+                <li class="flex--li"> <a class="flex__link" href="#">11 </a></li>
+                <li class="flex--li"> <a class="flex__link" href="#">12 </a></li>
+                <li class="flex--li"> <a class="flex__link" href="#">>     </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__brend">
+        <div class="container">
+          <div class="footer__brend--text"> 
+            <p class="footer__brend--p">Популярные бренды</p>
+          </div>
+          <div class="footer__brend--pic"><img class="footer__brend--img" src="assets/img/zara.png" alt=""/><img class="footer__brend--img" src="assets/img/zara.png" alt=""/><img class="footer__brend--img" src="assets/img/zara.png" alt=""/><img class="footer__brend--img" src="assets/img/zara.png" alt=""/><img class="footer__brend--img" src="assets/img/zara.png" alt=""/><img class="footer__brend--img" src="assets/img/zara.png" alt=""/><img class="footer__brend--img" src="assets/img/zara.png" alt=""/><img class="footer__brend--img" src="assets/img/zara.png" alt=""/></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer__main"> 
+          <div class="footer__block">О компании
+            <ul class="footer__menu">
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">О нас</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Отзывы клиентов</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Рекламодателям</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Новости</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Вакансии</a></li>
+            </ul>
+          </div>
+          <div class="footer__block">Центр помощи
+            <ul class="footer__menu">
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Как покупать?</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Тарифы</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Правила</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Программа привилегий</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Служба заботы о клиентах</a></li>
+            </ul>
+          </div>
+          <div class="footer__block">Каталог товаров
+            <ul class="footer__menu">
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Авторская одежда</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Украшения ручной работы</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Аксессуары handmade</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Материалы для творчества</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Для дома и интерьера</a></li>
+            </ul>
+          </div>
+          <div class="footer__block">Как найти подарок?
+            <ul class="footer__menu">
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Галерея коллекций</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Популярные товары</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Сувениры и подарки</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Авторские картины</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Сумки ручной работы</a></li>
+              <li class="footer__item"><a class="link" href="http://localhost:3000/about.html">Куклы и игрушки </a></li>
+            </ul>
+          </div>
+          <div class="footer__block">Мы в соц.сетях
+            <div class="footer__social"><a href="#"><img class="footer--img" src="assets/img/facebook.png" alt=""/></a><a href="#"><img class="footer--img" src="assets/img/instagram.png" alt=""/></a><a href="#"><img class="footer--img" src="assets/img/telegram.png" alt=""/></a><a href="#"><img class="footer--img" src="assets/img/viber.png" alt=""/></a><a href="#"><img class="footer--img" src="assets/img/vk.png" alt=""/></a></div>
+          </div>
+        </div>
+        <div class="footer__bottom"> 
+          <div class="container">
+            <div class="footer__past">
+              <div class="footer__middle"><span class="footer__left">© 2020. «Pica-premium»</span></div>
+              <div class="footer__middle">
+                <div class="footer__three"><img src="assets/img/uzcard.png" alt=""/><img src="assets/img/visa1.png" alt=""/><img src="assets/img/humo.png" alt=""/></div>
+              </div>
+              <div class="footer__middle"><span class="footer__right">Разработка сайтов Tuitsoft.uz</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/splide.min.js">  </script>
+    <script src="assets/js/app.js"> </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+header.header
+    .container
+        .header__main
+            .header__us
+                +menus('header__menu','header__item','Каталог','Онас','Доставка','Акции','Новости')
+                button.button__menu
+                    span
+            .header__logo
+                a(href="http://localhost:3000/index.html")
+                    img(src="assets/img/mainlogo.png", alt="").header__img
+            .header__info
+                .header__top
+                    .header__block--one
+                        .header__pic
+                            img(src="assets/img/support.png", alt="").header__delivery
+                        .header__text
+                            h4.header--h4 Служба поддержки
+                            span.header--span +998 71 123 45 67
+                    .header__block--two
+                        .header__pic
+                            img(src="assets/img/delivery.png", alt="").header__delivery
+                        .header__text
+                            h3.header--h4 Доставка
+                            span.header--span В течение дня
+                    .header__block--three
+                        .header__pic
+                            img(src="assets/img/cart.png", alt="").header__delivery
+                        .header__text
+                            h4.header--h4 Корзина
+                            span.header--span 1 200 000 сум
+    
